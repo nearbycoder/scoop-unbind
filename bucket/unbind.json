@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "description": "Share TCP or UDP services over encrypted peer connections",
+  "homepage": "https://unbind.dev",
+  "architecture": {
+    "64bit": {
+      "url": "https://unbind.dev/downloads/releases/0.2.0/unbind-windows-amd64.exe#/unbind.exe",
+      "hash": "d018b4ef0fe64fbe79dc6e04d4fff91fa2c6aa3e9418bfb5e84b20207c38e14a"
+    },
+    "arm64": {
+      "url": "https://unbind.dev/downloads/releases/0.2.0/unbind-windows-arm64.exe#/unbind.exe",
+      "hash": "eeaca2c81aff6060c18a482cb32927f2fba2214d7bc9685bb420218882cf9490"
+    }
+  },
+  "bin": "unbind.exe"
+}
